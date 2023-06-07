@@ -1,0 +1,16 @@
+digraph BinarySearchTree {
+
+ Node [shape = record, label = "<left>|<name> \N|<right>"]
+ A,B,C,D,E,F,G
+ 
+D:left -> B:name
+D:right -> F:name
+
+B:left -> A:name
+B:right -> C:name
+
+F:left -> E:name
+F:right -> G:name
+ 
+ 
+}
