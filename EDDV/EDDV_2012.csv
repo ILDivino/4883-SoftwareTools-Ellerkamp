@@ -1,0 +1,5 @@
+date,actual_high_temp,histavg_high_temp,record_high_temp,actual_low_temp,histavg_low_temp,record_low_temp,actual_avg_temp,histavg_avg_temp,record_avg_temp,actual_precip,histavg_precip,record_precipitation
+2012-1-1,55,38.1,--,45,29.1,--,51.38,34,-,0.00,0.10,-
+2012-1-2,57,38,--,41,29,--,47.81,34,-,0.00,0.10,-
+2012-1-1,55,38.1,--,45,29.1,--,51.38,34,-,0.00,0.10,-
+2012-1-1,55,38.1,--,45,29.1,--,51.38,34,-,0.00,0.10,-
