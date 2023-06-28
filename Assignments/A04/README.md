@@ -4,5 +4,6 @@
 
 |   #   |    File     |      Description                           |
 | :---: | ----------- | -------------------------------------------|
-|   1   |   bst.dot   | Dot language file that creates a BST image |
-|   2   |   bst.png   | Image of the bst.dot binary search tree.   |
+|   1   |   [bst.dot](bst.dot)   | Dot language file that creates a BST image |
+|   2   |  [bst.png](bst.png)   | Image of the bst.dot binary search tree.   |
+<img src="bst.png" alt="binary search tree image" width = 200>

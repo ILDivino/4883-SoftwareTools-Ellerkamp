@@ -1,16 +1,16 @@
-## Project A05
+## Project A05 - FamilyTree via Graphviz
 #### Name: Michael Ellerkamp
 #### Description: Our goal is to create a graph of family trees and clans. We are given family data but we must change the names in the data. Once the data is proper sanitzed we must then create a program that turns the data into the dot language for graphviz.
 
 
 |   #   |    File     |      Description                           |
 | :---: | ----------- | -------------------------------------------|
-|   1   |   Names   | Folder that contains the raw name data files, csv and txt name files. |
-|   2   |   Family  | Folder that houses the raw family tree raw data, before any changes  |
-|   3   | GraphViz_Helper.py | This file handles the bulk of the edge and node creation for the dot language|
-|   4   | Sanitizer.py | This file will contain all the methods used to maniuplate the the Family_Clean.csv |
-|   5   | Main.py   | Primary program that calls on methods from file 3 and file 4 to produce my data, it has two outputs to choose from based on which node method you call. Outputs to Dot.txt |
-|  6    | Dot.txt  | plain text document that holds my output in the form of dot code.  |
+|   1   |   [Names](Names/)   | Folder that contains the raw name data files, csv and txt name files. |
+|   2   |   [Family](Family/)  | Folder that houses the raw family tree raw data, before any changes  |
+|   3   | [GraphViz_Helper.py](GraphViz_Helper.py) | This file handles the bulk of the edge and node creation for the dot language|
+|   4   | [Sanitizer.py](Sanitizer.py) | This file will contain all the methods used to maniuplate the the Family_Clean.csv |
+|   5   | [Main.py](Main.py)   | Primary program that calls on methods from file 3 and file 4 to produce my data, it has two outputs to choose from based on which node method you call. Outputs to Dot.txt |
+|  6    | [Dot.txt](Dot.txt)  | plain text document that holds my output in the form of dot code.  |
 
 ## I use the following imports graphviz, random, OS, and CSV.
 ## Graphviz will require a pip install.

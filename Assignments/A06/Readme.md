@@ -1,13 +1,12 @@
-## Project A6
+## Project A06 - Software Tool Presentation
 #### Name: Michael Ellerkamp
 #### Description: OpenRefine presentation
 
 |   #   |    File     |      Description                           |
 | :---: | ----------- | -------------------------------------------|
-|   1   |   openrefine-win-with-java   | install file for openrefine |
-|   2   |   Airport_codes.json   | Familiar data file to mess with.   |
-|   3   |   Mockaroo_family_tree_2.csv | Better data for custom facets examples |
-|   4   | Periodic Table of Elements.csv | for reconcile data showcase |
+|   1   |   [Airport_codes.json](Airport_codes.json)   | Familiar data file to mess with.   |
+|   2   |   [Mockaroo_family_tree_2.csv](Mockaroo_family_tree_2.csv) | Better data for custom facets examples |
+|   3   | [Periodic Table of Elements.csv](Periodic-Table-of-Elements.csv) | for reconcile data showcase |
 Major topic: OpenRefine
 Relevance: Processing large amounts of data.
 
@@ -49,5 +48,5 @@ Relevance: Processing large amounts of data.
     reconcile data:
     periodic table of elements
     reconcile with either name or atomic number then add columns via the reconciled data.
-4. clustering
+1. clustering
     https://openrefine.org/docs/technical-reference/clustering-in-depth
