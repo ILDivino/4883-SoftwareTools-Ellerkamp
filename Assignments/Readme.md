@@ -7,3 +7,4 @@
 |   3   |   [A05](A05/)       | Graphviz program for reading in a family tree and plotting it out |
 |   4   |   [A06](A06/)       | Software Tool Presentation, OpenRefine |
 |   5   |   [A07](A07/)     |   Web Scrapping and PyGUI practice, scrapping weather specific weather data. |
+|   6   |   [A08](A08/)     |   FastAPI using Covid Data. |
