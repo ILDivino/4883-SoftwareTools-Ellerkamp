@@ -226,10 +226,21 @@ def getMinDeaths(Start_Date, End_Date):
         return(minimum, Min_Deaths[minimum])
     
 def getAvg_Deaths():
-    Countries = int(len(getUniqueCountries()))
-    Deaths = int(getDeaths("ALL","ALL", -1))
+    global db
+    countries = {}
+    count = {}
 
-    return int(Deaths / Countries)
+    for row in db:
+#        print(row)
+        if not row[2] in countries:
+            countries[row[2]] = int(row[6])
+            count[row[2]] = 1
+        else:
+            countries[row[2]] += int(row[6])
+            count[row[2]] += 1
+    for items in countries:
+        countries[items] = int(countries[items]/count[items])
+    return countries
 
 @app.get("/")
 async def docs_redirect():
@@ -529,14 +540,24 @@ async def avg_deaths():
     - **Params:**
       - None
     - **Returns:**
-      - (int) : the total number of deaths divided by the number of unique countries
+      - list(int) : the total number of deaths per country. deaths/(time instances) per country
 
     #### Example 1:
 
     [http://localhost:8000/avg_deaths/](http://localhost:8000/avg_deaths/)
 
     #### Response 1:
-        avg_deaths	29306
+        "Malta": 0,
+        "Marshall Islands": 0,
+        "Martinique": 0,
+        "Mauritania": 0,
+        "Mauritius": 0,
+        "Mayotte": 0,
+        "Mexico": 264,
+        "Micronesia (Federated States of)": 0,
+        "Monaco": 0,
+        "Mongolia": 1,
+        "Montenegro": 2,
     """
 
     return {"avg_deaths":getAvg_Deaths()}
