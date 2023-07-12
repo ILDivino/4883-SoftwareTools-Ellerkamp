@@ -23,7 +23,7 @@ disp("\nMeans!!\n")
 Mean_X = Sum_X/N
 Mean_LnY = Sum_LnY/N
 #this uses the S sub AB functions. Remember replace all instaces of y with ln(y)
-disp("\nS functions!!!")
+disp("\nS functions!!!\n")
 Sxy = Sum_XLnY - N*Mean_X*Mean_LnY
 Sxx = Sum_X2 - N*power(Mean_X,2)
 Syy = Sum_LnY2 - N*power(Mean_LnY,2)
@@ -36,6 +36,5 @@ A = exp(Mean_LnY - log(B)*Mean_X)
 printf("Our equation is: y = (%d)(%d)^x",A, B)
 #now for R value
 disp("\nR-Value:\n")
-disp((sqrt(Sxx)*sqrt(Syy)))
 R = Sxy / (sqrt(Sxx)*sqrt(Syy))
 
